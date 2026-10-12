@@ -1,0 +1,32 @@
+{
+  "name": "automated-trading-bot",
+  "version": "1.0.0",
+  "description": "Automated cryptocurrency trading bot powered by altFINS API signals and technical analysis",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "tsc && node --test dist/test/*.test.js"
+  },
+  "keywords": [
+    "altfins",
+    "trading-bot",
+    "crypto",
+    "algorithmic-trading",
+    "signals",
+    "automated-trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

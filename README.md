@@ -29,6 +29,14 @@ Telegram bot that monitors newly triggered signals based on selected preferencie
 
 Next.js application that demonstrates how to interact with the Altfins API. The application features a modern and clean design with an intuitive interface.
 
+# automated-trading-bot application
+
+Automated trading bot that consumes real-time trading signals and technical analysis from the altFINS Public API v2 and executes automated trades with risk management (Stop-Loss, Take-Profit, Trailing Stops). Supports Paper Trading, live exchange execution (Binance), and Webhook integration (Freqtrade, 3Commas).
+
 # postman-collection
 
 Collection of endpoints ready to use in Postman application.
+
+# mcp-example
+
+Model Context Protocol (MCP) server examples for altFINS integration using Python, TypeScript, and Java.
